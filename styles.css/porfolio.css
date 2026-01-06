@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+/*shared style*/
+.open-sans  {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+header{
+  background-color: #FFF8F3 ;
+  padding-top: 50px;
+}
+.head h2{
+  font-size: 45px;
+}
+.logo{
+  color: #FD6E0A;
+}
+nav{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0px auto;
+}
+.head{
+   display: flex;
+  justify-content: space-between;
+}
+nav .manu{
+  display: flex;
+  list-style-type: none;
+  gap: 51px;
+  align-items: center;
+}
+.manu a{
+  font-size: 20px;
+  font-weight: 30px;
+  text-decoration: none;
+}
+.button{
+  border: none;
+  background-color: #FD6E0A;
+  padding: 15px 35px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+ 
