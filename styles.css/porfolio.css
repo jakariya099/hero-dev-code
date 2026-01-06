@@ -10,6 +10,9 @@
 }
 header{
   background-color: #FFF8F3 ;
+  background: url(../images/developer.png),url(../images/header_bg.png),#FFF8F3;
+  background-position: top left , bottom right ;
+  background-repeat: no-repeat;
   padding-top: 50px;
 }
 .head h2{
@@ -45,6 +48,33 @@ nav .manu{
   border-radius: 10px;
   color: white;
   font-size: 20px;
+  cursor: pointer;
 }
 
+#banner{
+  margin: 100px 10px 0px 370px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#banner .banner-div h2{
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600px;
+  margin-bottom: 5px;
+}
+#banner .banner-div h1{
+  font-size: 85px;
+  font-weight: bold;
+  margin:5px 0px 5px 0px;
+}
+#banner .banner-div p{
+  font-size: 18px;
+  font-weight: 400px;
+  margin: 10px;
+}
+ #banner .banner-img img{
+  max-width: 585px;
+  vertical-align: middle;
+ }
  
