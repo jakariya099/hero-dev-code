@@ -1,0 +1,13 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .top{
+    size: 10px;
+ }
+
+   .top-color{
+    color: rgb(173, 8, 8);
+    font-size: x-large;
+ }
